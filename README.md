@@ -9,12 +9,12 @@ podemos destacar a comunicação com algum banco de dados, fila, logs e, como ex
 nossa aplicação através da exposição de APIs. Entendido esse conceito, temos o Core da aplicação como ponto focal, onde o acesso 
 a ele se dá pelos “Ports and Adapters”, tais códigos são do domínio do negócio, onde neles não há interferência externa.
 
-1.Adaptadores Primários
+# Adaptadores Primários
 Também conhecidos como “Driving Adapters” (ou Adaptadores de Direção), representam os adaptadores de entrada, ou seja, 
 na maioria dos casos pode representar a interface com o usuário. Isso se dá, pois eles conduzem a aplicação e iniciam ações 
 nela. Neste caso teremos, como exemplo, controladores de APIs, controladores Web ou, simplesmente, Views.
 
-2.Adaptadores Secundários
+# Adaptadores Secundários
 Também chamados de “Driven Adapters” (ou adaptadores acionados), representam os adaptadores de saída, ou seja, a conexão com 
 o mundo externo. Eles reagem de acordo com as ações feitas nos adaptadores primários. Neste caso temos, como exemplo, conexões 
 com banco de dados, APIs, bibliotecas, envios de Email e registros de Logs.
